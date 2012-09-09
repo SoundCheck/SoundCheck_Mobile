@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="SplashScreen">
+        <item name="android:padding">0dp</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:windowFrame">@null</item>
+    </style>
+
+    <style name="ControlScreen" parent="android:Theme.NoTitleBar">
+        <item name="android:windowBackground">@color/primaryBG</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    
+    <style name="labelText">
+        <item name="android:textColor">@color/secondaryA</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+    </style>
+    
+    <style name="listViewItem">
+        <item name="android:padding">10dp</item>
+    	<item name="android:textSize">16sp</item>
+    	<item name="android:background">@drawable/list_selector</item>
+    	<item name="android:textColor">@android:color/white</item>
+    </style>
+    
+    <style name="listViewItem.songItemTop">
+        <item name="android:padding">5dip</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+    
+    <style name="listViewItem.songItemBottom">
+        <item name="android:paddingLeft">5dp</item>
+    </style>
+
+</resources>	

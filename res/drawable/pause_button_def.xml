@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+     <!-- Order must be Pressed, Focused (Not currently using), Default -->
+    <item android:state_pressed="true"  android:drawable="@drawable/pause_button_pressed"></item>
+    <item android:drawable="@drawable/pause_button"></item>
+</selector>
